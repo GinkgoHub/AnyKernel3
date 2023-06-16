@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=QuicksilveR Kernel by ghostrider-reborn
+kernel.string=LineageOS-perf Kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -88,4 +88,3 @@ write_boot; # use flash_boot to skip ramdisk repack, e.g. for devices with init_
 
 #write_boot; # use flash_boot to skip ramdisk repack, e.g. for dtb on devices with hdr v4 but no vendor_kernel_boot
 ## end vendor_boot install
-
